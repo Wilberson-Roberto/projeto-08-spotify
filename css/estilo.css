@@ -3,7 +3,48 @@
 
 body {
     font: 16px Helvetica, Arial, sans-serif;
+    background: url(../img/capa.png), url(../img/ruido.png), linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
 }
+
+/* Formatação do topo
+-------------------------------------------------*/
+
+nav {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.logo {
+    width: 10rem;
+    padding: 10px;
+}
+
+#menu-principal a {
+    color: #fff;
+}
+
+#menu-principal a:hover {
+    color: #00fff2;
+}
+
+.divisor {
+    background: #fff;
+    width: 1px;
+    margin: 0 20px;
+}
+
+.bg-tg {
+    background: #7c26f8;
+}
+
+.bg-tg:hover {
+    background: #c941ff;
+}
+
+/* Formatação da capa
+-------------------------------------------------*/
+
+
 
 /* Breakpoints responsivos
 -------------------------------------------------*/
